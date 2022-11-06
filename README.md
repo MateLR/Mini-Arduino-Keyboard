@@ -3,7 +3,8 @@ Last version: ![image](https://user-images.githubusercontent.com/77449049/200173
 First version: ![Uploading image.png…]()
 
 Bad code on Arduino c++ for keyboard with mi binds
-'''py
+```c++
+
 #include <EasyHID.h>
 #include <GyverButton.h>
 
@@ -80,13 +81,12 @@ void loop() {
         Keyboard.click(KEY_ARROW_RIGHT, KEY_ARROW_LEFT);
         led_flag = !led_flag;
         digitalWrite(13, led_flag);
-        digitalWrite(6, led_flag)
-
-        ;
+        digitalWrite(6, led_flag);
       }
       if (cbt.isClick()) {
         Keyboard.print("`");
-        for (int i = 1000; i > 900 ; i -= 7) {
+        for (int i = 1000; i > 900 ; i -= 7) 
+        {
           Keyboard.print("say ");
           Keyboard.print(i);
           Keyboard.print(" - 7 = ");
@@ -109,4 +109,4 @@ void loop() {
   }
   HID.tick();
 }
-'''
+```
