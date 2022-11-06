@@ -36,7 +36,7 @@ void setup() {
 
 void loop() {
   if (x_flag == 1 && millis() - myTimer1 > 400) {
-    Keyboard.println("2323");
+    Keyboard.println("***mypassword***");
     x_flag = 2;
   }
 
