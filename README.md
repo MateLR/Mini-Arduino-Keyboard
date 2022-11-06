@@ -1,8 +1,9 @@
 ## Mini-Arduino-Keyboard
 Last version: ![image](https://user-images.githubusercontent.com/77449049/200173822-5b18476d-9134-4d5e-897b-ea924eec0aec.png)
-First version: ![Uploading image.png…]()
+First version: ![image](https://user-images.githubusercontent.com/77449049/200174062-8e706e7f-1180-4cae-99fb-114de2bc6a27.png)
 
-Bad code on Arduino c++ for keyboard with mi binds
+
+Bad code on Arduino c++ for keyboard with my binds
 ```c++
 
 #include <EasyHID.h>
